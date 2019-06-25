@@ -8,7 +8,7 @@
   dependencies:
     bunyan "^1.8.10"
 
-"@cdm-logger/server@^3.0.1":
+"@cdm-logger/server@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@cdm-logger/server/-/server-3.0.2.tgz#d7883e9f89eef1f5091f31e032ac299b87d215c0"
   dependencies:
@@ -48,10 +48,6 @@
 "@types/chai@*", "@types/chai@^3.4.34":
   version "3.4.34"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.4.34.tgz#d5335792823bb09cddd5e38c3d211b709183854d"
-
-"@types/graphql@^0.8.2":
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.8.5.tgz#3f06ab58a5f37a94c94fafe0767efa0fcd0e7b3a"
 
 "@types/graphql@^0.9.1":
   version "0.9.4"
@@ -1289,7 +1285,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-graphql-subscriptions@^0.4.2:
+graphql-subscriptions@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-0.4.4.tgz#39cff32d08dd3c990113864bab77154403727e9b"
   dependencies:
@@ -1297,11 +1293,11 @@ graphql-subscriptions@^0.4.2:
     es6-promise "^4.0.5"
     iterall "^1.1.1"
 
-"graphql@^0.8.0 || ^0.9.0":
-  version "0.9.6"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.9.6.tgz#514421e9d225c29dfc8fd305459abae58815ef2c"
+graphql@^0.10.5:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.10.5.tgz#c9be17ca2bdfdbd134077ffd9bbaa48b8becd298"
   dependencies:
-    iterall "^1.0.0"
+    iterall "^1.1.0"
 
 growl@1.9.2:
   version "1.9.2"
@@ -1578,7 +1574,11 @@ istanbul@1.0.0-alpha.2:
     which "^1.1.1"
     wordwrap "^1.0.0"
 
-iterall@^1.0.0, iterall@^1.1.1:
+iterall@^1.1.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
+
+iterall@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.1.tgz#f7f0af11e9a04ec6426260f5019d9fcca4d50214"
 
@@ -1848,8 +1848,8 @@ mocha@^3.0.0:
     supports-color "3.1.2"
 
 moment@^2.10.6:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
 
 ms@0.7.1:
   version "0.7.1"
@@ -2387,9 +2387,9 @@ type-detect@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-1.0.0.tgz#762217cc06db258ec48908a1298e8b95121e8ea2"
 
-typescript@^2.1.5:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.2.tgz#038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34"
+typescript@^2.3.4:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
 uglify-js@^2.6:
   version "2.7.5"
